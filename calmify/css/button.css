@@ -1,0 +1,24 @@
+.float-btn{
+	width: 50px;
+	height: 50px;
+	background: white;
+	display: flex;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	color: #2980B9;
+	text-decoration: none;
+	font-size: 60px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.25);
+	position: fixed;
+	left: 25px;
+	bottom: 10px;
+	transition: background 0.5s;
+	outline: blue;
+	border: none;
+	cursor: pointer;
+}
+
+.float-btn:active{
+	background: #29B9AA;
+}
